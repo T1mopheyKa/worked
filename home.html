@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Образовательный Pet-Проект</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-lightbulb"></i>Образовательный Pet-Проект</a>
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">Главная</a>
+            <a href="courses.html">Профессии</a>
+            <a href="contact.html">Контакты</a>
+            <a href="about.html">О Нас</a>
+        </nav>
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+    <div class="account-form">
+        <div id="close-form" class="fas fa-times"></div>
+        <div class="buttons">
+            <span class="btn active login-btn">Логин</span>
+            <span class="btn register-btn">Регистрация</span>
+        </div>
+        <form class="login-form active" action="">
+            <h3>Войти</h3>
+            <input type="email" placeholder="Почта" class="box">
+            <input type="password" placeholder="Пароль" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Запомнить меня</label>
+                <a href="#">Забыли пароль?</a>
+            </div>
+            <input type="submit" value="Логин" class="btn">
+        </form>
+        <form class="register-form" action="">
+            <h3>Регистрация</h3>
+            <input type="email" placeholder="Логин" class="box">
+            <input type="password" placeholder="Пароль" class="box">
+            <input type="password" placeholder="Подтверждение пароля" class="box">
+            <input type="submit" value="Регистриция" class="btn">
+        </form>
+    </div>
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <section class="swiper-slide slide" style="background: linear-gradient(to top, rgba(3, 22, 126, 0.3),rgba(2, 19, 112, 0.3)), url(images/pexels-olia-danilevich-4974912.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Профессии для каждого из вас!</h3>
+                        <p>Наши специалисты следят за рынком труда, поэтому, вы можете не волноваться о том, что ваша профессия будет не актуальна!</p>
+                        <a href="#" class="btn">Узнать Подробнее</a>
+                    </div>
+                </section>
+                <section class="swiper-slide slide" style="background:linear-gradient(to top, rgba(3, 22, 126, 0.3),rgba(2, 19, 112, 0.3)), url(images/pexels-andrea-piacquadio-3772511.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Качественная подача материала!</h3>
+                        <p>Наши преподаватели являются профессионалами своего дела! Поэтому, у нас вы сможете получить необходимое образование для своего первого старта!</p>
+                        <a href="#" class="btn">Узнать Подробнее</a>
+                    </div>
+                </section>
+                <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Учись сдесь, и сейчас!</h3>
+                        <p>Наша система обучения, позволяет каждому ученику получать тонкие знания своего дела, для успешного продвижения!</p>
+                        <a href="#" class="btn">Узнать Подробнее</a>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="subjects">
+        <h1 class="heading">Популярные Под-направления</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/subject-icon-1.png" alt="">
+                <h3>Дизайн</h3>
+                <p>12 модулей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-2.png" alt="">
+                <h3>Высшая Математика</h3>
+                <p>12 модулей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-3.png" alt="">
+                <h3>Учителя</h3>
+                <p>12 модулей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-4.png" alt="">
+                <h3>Разработчики</h3>
+                <p>12 модулей</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-icon-5.png" alt="">
+                <h3>Научные изучения</h3>
+                <p>12 модулей</p>
+            </div>
+
+            <div class="box">
+                <a href="welder.html"><img src="images/subject-icon-6.png" alt="">
+                    <h3>Инженерия</h3>
+                    <p>12 модулей</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="home-courses">
+        <h1 class="heading">Популярные Направления</h1>
+        <div class="swiper home-courses-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/1-removebg-preview.png" alt="" width="500" height="500">
+                        <h3>Психология</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Психология</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                        <a href="#" class="btn">Узнать больше</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/2-removebg-preview.png" alt="" width="500" height="500">
+                        <h3>Программирование</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Программирование</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                        <a href="#" class="btn">Узнать больше</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/3-removebg-preview.png" alt="" width="500" height="500">
+                        <h3>Сварщик</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Сварщик</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+                        <a href="welder.html" class="btn">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> <i class="fas fa-lightbulb"></i>Pet-проект</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Быстрый доступ</h3>
+                <a href="home.html" class="link">Главная</a>
+                <a href="about.html" class="link">Профессии</a>
+                <a href="courses.html" class="link">Контакты</a>
+                <a href="contact.html" class="link">О Нас</a>
+            </div>
+            <div class="box">
+                <h3>Для Пользователя</h3>
+                <a href="#" class="link">Помощь</a>
+                <a href="#" class="link">Вопросы</a>
+                <a href="#" class="link">Получить ответ</a>
+                <a href="#" class="link">Для пользователя</a>
+            </div>
+            <div class="box">
+                <h3>Новости</h3>
+                <p>Подпишитесь, для получения новых событий!</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Почта" id="" class="email">
+                    <input type="submit" value="Подписаться" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
